@@ -1,0 +1,71 @@
+{
+  "type": "record",
+  "name": "Media",
+  "namespace": "es.eci.firefly.canonical.item",
+  "fields": [
+	{
+	  "name": "caption",
+	  "type": ["null","string"]
+	},
+	{
+	  "name": "description",
+	  "type": ["null","string"]
+	},
+	{
+	  "name": "identifier",
+	  "type": ["null","string"]
+	},
+	{
+	  "name": "media_type",
+	  "type": ["null","string"]
+	},
+	{
+	  "name": "name",
+	  "type": ["null","string"]
+	},
+	{
+	  "name": "order_number",
+	  "type": ["null","double"]
+	},
+	{
+	  "name": "url_list",
+	  "type": ["null",{
+		"type": "array",
+		"items": {
+		  "type": "record",
+		  "name": "UrlList",
+		  "fields": [
+			{
+			  "name": "content_size",
+			  "type": ["null","string"]
+			},
+			{
+			  "name": "content_url",
+			  "type": ["null","string"]
+			},
+			{
+			  "name": "height",
+			  "type": ["null","double"]
+			},
+			{
+			  "name": "identifier",
+			  "type": ["null","string"]
+			},
+			{
+			  "name": "in_language",
+			  "type": ["null","string"]
+			},
+			{
+			  "name": "is_default",
+			  "type": ["null","boolean"]
+			},
+			{
+			  "name": "width",
+			  "type": ["null","double"]
+			}
+		  ]
+		}
+	  }]
+	}
+  ]
+}

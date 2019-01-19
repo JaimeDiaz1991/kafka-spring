@@ -1,0 +1,39 @@
+{
+  "type": "record",
+  "name": "FeaturesItem",
+  "namespace": "es.eci.firefly.canonical.item",
+  "fields": [
+	{
+	  "name": "code",
+	  "type": ["null","string"]
+	},
+	{
+	  "name": "group",
+	  "type": ["null","string"]
+	},
+	{
+	  "name": "identifier",
+	  "type": ["null","string"]
+	},
+	{
+	  "name": "in_language",
+	  "type": ["null","string"]
+	},
+	{
+	  "name": "is_comparable",
+	  "type": ["null","boolean"]
+	},
+	{
+	  "name": "is_searchable",
+	  "type": ["null","boolean"]
+	},
+	{
+	  "name": "name",
+	  "type": ["null","string"]
+	},
+	{
+	  "name": "value",
+	  "type": ["null","string"]
+	}
+  ]
+}
